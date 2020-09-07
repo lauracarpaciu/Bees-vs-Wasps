@@ -3,7 +3,6 @@
 Bees vs Wasps
 Synopsis
 Hand-curated, close-up photos of bees, wasps, and other insects. The challenge is primarily to distinguish bees from wasps.
-
 Credits
 This image dataset collates and refines upon several sources:
 
@@ -16,9 +15,7 @@ Flicker search for bee, wasp and fly
 The photos have been hand-curated by the expert biologist, Callum Robertson https://www.linkedin.com/in/callum-robertson-358014109/
 
 Collator and Kaggle competitor: George Rey https://www.linkedin.com/in/dr-george-rey-dziewierz/
-
 Contributions:
-
 Ivan Rodriguez, Rémi Mégret, Edgar Acuña, José Agosto, Tugrul Giray. Recognition of pollen-bearing bees from Video using Convolutional Neural Network, IEEE Winter Conf. on Applications of Computer Vision, 2018, Lake Tahoe, NV. https://doi.org/10.1109/WACV.2018.00041
 
 Inspiration
