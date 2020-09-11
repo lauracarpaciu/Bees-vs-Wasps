@@ -17,9 +17,7 @@ The photos have been hand-curated by the expert biologist, Callum Robertson http
 Collator and Kaggle competitor: George Rey https://www.linkedin.com/in/dr-george-rey-dziewierz/
 Contributions:
 Ivan Rodriguez, Rémi Mégret, Edgar Acuña, José Agosto, Tugrul Giray. Recognition of pollen-bearing bees from Video using Convolutional Neural Network, IEEE Winter Conf. on Applications of Computer Vision, 2018, Lake Tahoe, NV. https://doi.org/10.1109/WACV.2018.00041
-
-Inspiration
-Some notes:
-
-The data is probably biased:
-Most bees are photographed on a flower, while most wasps are not. Your AI might learn to recognize the existence of a flower rather than existence of a bee.existence of a bee. You might want to test it against some "empty flowers" to verify.
+Convnets are the best type of machine-learning models for computer-vision tasks. It’s possible to train one from scratch even on a very small dataset,with decent results.
+On a small dataset, overfitting will be the main issue. Data augmentation is a powerful way to fight overfitting when we’re working with image data.
+It’s easy to reuse an existing convnet on a new dataset via feature extraction. This is a valuable technique for working with small image datasets.
+As a complement to feature extraction, we can use fine-tuning, which adapts to a new problem some of the representations previously learned by an existing model. This pushes performance a bit further.
